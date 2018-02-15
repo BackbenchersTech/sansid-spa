@@ -1,0 +1,239 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar-fixed-top {
+    padding: 5px 0;
+    background-color: transparent;
+    background-image: none;
+    border: 0px;
+    margin-bottom: 0px;
+    padding: 0px 100px;
+    transition-duration: 0.35s;
+}
+
+.navbar-inverse .navbar-nav>li {
+    padding: 0 2px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FAFAFA;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.navbar-inverse .navbar-nav>li>a.active {
+    color: #ff7a7a;
+}
+
+.navbar-inverse .navbar-header>a {
+    color: #FAFAFA;
+}
+
+.whiteBg {
+    background-color: #FAFAFA;
+}
+
+.whiteBg .navbar-nav>li>a {
+    color: #444;
+}
+
+.whiteBg .navbar-header>a {
+    color: #444;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.whiteBg .navbar-header>a:hover,
+.whiteBg .navbar-header>a:focus,
+.whiteBg .navbar-header>a:visited,
+.whiteBg .navbar-nav>li>a:hover,
+.whiteBg .navbar-nav>li>a:focus,
+.whiteBg .navbar-nav>li>a:visited {
+    color: inherit;
+}
+
+.whiteBg .navbar-nav>li>a.active {
+    color: #ff7a7a;
+}
+
+.navbar-inverse .navbar-toggle,
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    border: 0px;
+    background-color: transparent;
+}
+
+.content {
+    padding: 100px;
+}
+
+.title {
+    margin: 0px;
+    padding-bottom: 50px;
+}
+
+.title::after {
+    content: '';
+    width: 35px;
+    height: 4px;
+    display: block;
+    background-color: white;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+
+.infoCols {
+    padding: 0px;
+    padding-bottom: 30px;
+}
+
+#home {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../assets/background-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FAFAFA;
+}
+
+#home .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+}
+
+#home .overlay .homeWrap {
+    margin: auto;
+    text-align: center;
+}
+
+#home .specialText {
+    text-transform: uppercase;
+    color: #ff7a7a;
+}
+
+.myBtn {
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: 2px solid #FAFAFA;
+    background-color: transparent;
+    transition-duration: 0.3s;
+    padding: 6px 12px;
+}
+
+.myBtn:hover {
+    background-color: white;
+    color: #444;
+}
+
+#about {
+    background-image: url("../assets/background-1.jpg");
+    background-size: cover;
+    display: flex;
+    color: #FAFAFA;
+}
+
+#about .content {
+    background-color: rgba(30, 159, 180, 0.9);
+}
+
+#whatWeDo,
+#contact {
+    background-color: #F6F6F6;
+    color: #444;
+}
+
+#whatWeDo .title::after,
+#contact .title::after {
+    background: #444;
+}
+
+#workingHours {
+    background-color: rgb(255, 179, 55);
+    color: #FAFAFA;
+}
+
+#workingHours ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+#contact .row {
+    margin: 0px;
+}
+
+#contact .row .infoCols {
+    padding-right: 30px;
+}
+
+#contact .row .infoCols:last-child {
+    padding-right: 0px;
+}
+
+#contact form.row .infoCols {
+    padding-bottom: 10px;
+}
+
+#contact .myBtn {
+    color: #444;
+    border-color: #444;
+}
+
+#contact .myBtn:hover {
+    color: #FAFAFA;
+    background-color: #444;
+}
+
+#contact .row:nth-child(2) .infoCols i {
+    padding-bottom: 15px;
+}
+
+#contact .row:nth-child(2) .infoCols {
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: #EDEDED;
+    padding: 20px 0px;
+}
+
+#return-top {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background: rgba(0,0,0,0.5);
+	width: 50px;
+	height: 50px;
+	display: block;
+	text-decoration: none;
+	-webkit-border-radius: 35px;
+	-moz-border-radius: 35px;
+	border-radius: 35px;
+	display: none;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#return-top:hover i {
+	top:5px;
+}
+
+#return-top i {
+	color: #FAFAFA;
+	margin: 0;
+	position: relative;
+	left: 16px;
+	top: 13px;
+	font-size: 19px;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
